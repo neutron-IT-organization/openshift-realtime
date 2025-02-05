@@ -11,7 +11,7 @@ Cet article explore comment configurer une infrastructure mixte - containers et 
 
 ### Les défis des workloads temps réel
 
-Les applications temps réel exigent un traitement des données et une réponse aux événements dans des délais extrêmement courts et stables. Parmi les enjeux principaux, on retrouve : 
+Les applications temps réel exigent un traitement des données et une réponse aux événements dans des délais extrêmement courts et stables. Parmi les enjeux principaux, on retrouve :  
 - **La prévisibilité du temps de réponse** : L'isolation des ressources (CPU, mémoire et E/S) est indispensable pour éviter les interférences.  
 - **La latence réseau minimale** : Pour les communications critiques, il est souvent nécessaire d'utiliser des interfaces réseau qui contournent les couches de virtualisation classiques.  
 - **La gestion simultanée de containers et de VMs** : Certains workloads hérités fonctionnant en VM doivent cohabiter avec des applications nativement containerisées, sans compromettre la performance globale.  
@@ -24,7 +24,7 @@ OpenShift permet de réunir ces deux types de workloads à l'aide de son opérat
 
 ### Configuration d'OpenShift
 
-Pour exécuter des workloads temps réel, OpenShift doit être configuré avec :
+Pour exécuter des workloads temps réel, OpenShift doit être configuré avec :  
 - **Un noyau temps réel** : Disponible via l'opérateur OpenShift RT, ce noyau permet d'améliorer la stabilité des temps de réponse.  
 - **L'isolation des CPUs** : En dédiant des cœurs spécifiques aux tâches critiques, on réduit la variabilité des performances.  
 - **L'optimisation des interruptions** : Ajuster les IRQs et configurer l'affinité CPU permet d'éviter les interruptions non désirées.  
