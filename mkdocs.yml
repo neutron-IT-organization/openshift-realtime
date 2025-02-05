@@ -1,4 +1,4 @@
-site_name: Deepseek on Openshift
+site_name: RealTime on Openshift
 theme:
   name: material
   features:
@@ -7,8 +7,8 @@ theme:
   logo: assets/logo.png
 plugins:
 - search
-repo_url: https://github.com/neutron-IT-organization/deepseek-openshift
-repo_name: neutron-IT-organization/deepseek-openshift
+repo_url: https://github.com/neutron-IT-organization/openshift-realtime
+repo_name: neutron-IT-organization/openshift-realtime
 docs_dir: content
 extra_css:
   - stylesheets/extra.css
