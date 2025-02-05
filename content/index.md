@@ -158,11 +158,8 @@ spec:
 ## Utilisation d'une interface réseau L2
 
 Les applications temps réel requièrent souvent une communication réseau à faible latence et haut débit. L'utilisation d'une interface réseau L2 permet de réduire la surcharge introduite par les couches de virtualisation réseau classiques et d'offrir une connectivité directe entre les workloads. 
-
 ![OSI Model](images/OSI-model.png){: .scaled-image }
-
 OpenShift permet d'exploiter Multus pour créer des interfaces L2 en utilisant macvlan.
-
 ![macvlan](images/macvaln.png){: .scaled-image }
 ### Création d'un NAD Multus en macvlan
 
