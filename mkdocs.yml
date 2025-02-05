@@ -1,0 +1,21 @@
+site_name: Deepseek on Openshift
+theme:
+  name: material
+  features:
+  - navigation.tabs
+  - navigation.indexes
+  logo: assets/logo.png
+plugins:
+- search
+repo_url: https://github.com/neutron-IT-organization/deepseek-openshift
+repo_name: neutron-IT-organization/deepseek-openshift
+docs_dir: content
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - attr_list
+  - toc:
+      toc_depth: "2-3"
+markdown_extensions:
+- toc:
+    toc_depth: "2-3"
