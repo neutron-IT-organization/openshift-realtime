@@ -181,7 +181,7 @@ spec:
   }'
 ```
 
-### Attachement d'une interface L2 à un container
+### Association d'une interface L2 à un container
 
 ```yaml
 apiVersion: v1
@@ -196,7 +196,7 @@ spec:
     image: registry.example.com/rt-app:latest
 ```
 
-### Attachement d'une interface L2 à une VM
+### Association d'une interface L2 à une VM
 
 ```yaml
 spec:
