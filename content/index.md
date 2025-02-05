@@ -5,7 +5,7 @@ title: Home
 # Utiliser les capacités temps réel d'OpenShift
 
 Face à l'essor des applications à contraintes temps réel dans les environnements industriels et financiers, les entreprises doivent repenser leurs infrastructures pour offrir à la fois flexibilité, faible latence et robustesse. OpenShift, la plateforme de Red Hat basée sur Kubernetes, propose des capacités temps réel pour des workloads containers et machines virtuelles, tout en garantissant la sécurité de ceux-ci.   
-Cet article explore comment configurer une infrastructure mixte - containers et VMs - optimisée pour les contraintes temps réel.
+Cet article explore comment configurer une infrastructure mixte *- containers et VMs -* optimisée pour les contraintes temps réel.
 
 ## Contexte et enjeux des contraintes temps réel sur OpenShift
 
@@ -159,11 +159,11 @@ spec:
 
 Les applications temps réel requièrent souvent une communication réseau à faible latence et haut débit. L'utilisation d'une interface réseau L2 permet de réduire la surcharge introduite par les couches de virtualisation réseau classiques et d'offrir une connectivité directe entre les workloads. 
 
-![OSI Model](images/OSI-model.png)
+![OSI Model](images/OSI-model.png){: style="transform: scale(0.625);"}
 
 OpenShift permet d'exploiter Multus pour créer des interfaces L2 en utilisant macvlan.
 
-![macvlan](images/macvaln.png)
+![macvlan](images/macvaln.png){: style="transform: scale(0.625);"}
 
 ### Création d'un NAD Multus en macvlan
 
