@@ -8,7 +8,7 @@ theme:
 plugins:
 - search
 repo_url: https://github.com/neutron-IT-organization/openshift-realtime
-repo_name: neutron-IT-organization/openshift-realtime
+repo_name: neutron-IT-organization/openshiftt
 docs_dir: content
 extra_css:
   - stylesheets/extra.css
@@ -16,6 +16,3 @@ markdown_extensions:
   - attr_list
   - toc:
       toc_depth: "2-3"
-markdown_extensions:
-- toc:
-    toc_depth: "2-3"
