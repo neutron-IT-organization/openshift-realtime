@@ -161,6 +161,7 @@ Les applications temps réel requièrent souvent une communication réseau à fa
 ![OSI Model](images/OSI-model.png){: .scaled-image }
 OpenShift permet d'exploiter Multus pour créer des interfaces L2 en utilisant macvlan.
 ![macvlan](images/macvaln.png){: .scaled-image }
+
 ### Création d'un NAD Multus en macvlan
 
 ```yaml
