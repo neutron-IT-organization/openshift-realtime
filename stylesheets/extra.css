@@ -1,0 +1,10 @@
+:root {
+    --md-primary-fg-color:        #747bcb;
+    --md-primary-fg-color--light: linear-gradient(135deg, #747bcb, #5a62b6);
+    --md-primary-fg-color--dark:  linear-gradient(135deg, #5a62b6, #747bcb);
+  }
+
+.scaled-image {
+  max-width: 62.5% !important;
+  display: block; /* Optionnel pour éviter des problèmes d'alignement */
+}
