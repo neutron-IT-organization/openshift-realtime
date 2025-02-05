@@ -3,3 +3,8 @@
     --md-primary-fg-color--light: linear-gradient(135deg, #747bcb, #5a62b6);
     --md-primary-fg-color--dark:  linear-gradient(135deg, #5a62b6, #747bcb);
   }
+
+.scaled-image {
+  transform: scale(0.625);
+  display: block; /* Optionnel pour éviter des problèmes d'alignement */
+}
