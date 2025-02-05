@@ -5,6 +5,6 @@
   }
 
 .scaled-image {
-  transform: scale(0.625);
+  max-width: 62.5%;
   display: block; /* Optionnel pour éviter des problèmes d'alignement */
 }
